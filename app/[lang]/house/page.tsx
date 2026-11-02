@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import Link from "next/link";
 import { type Lang, products } from "@/lib/products";
 import { t } from "@/lib/copy";
@@ -8,7 +9,10 @@ export async function generateMetadata({
   params: Promise<{ lang: Lang }>;
 }) {
   const { lang } = await params;
-  return { title: t(lang).house, alternates: { canonical: `/${lang}/house/` } };
+  return {
+    title: t(lang).house,
+    alternates: { canonical: siteUrl(`/${lang}/house/`) },
+  };
 }
 export default async function Page({
   params,

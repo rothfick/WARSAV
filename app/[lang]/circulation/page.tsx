@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import Link from "next/link";
 import { products, type Lang } from "@/lib/products";
 import { t } from "@/lib/copy";
@@ -10,7 +11,7 @@ export async function generateMetadata({
   const { lang } = await params;
   return {
     title: t(lang).circulation,
-    alternates: { canonical: `/${lang}/circulation/` },
+    alternates: { canonical: siteUrl(`/${lang}/circulation/`) },
   };
 }
 export default async function Page({

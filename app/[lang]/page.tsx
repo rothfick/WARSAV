@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import { Home } from "@/components/home";
 import { type Lang } from "@/lib/products";
 export async function generateMetadata({
@@ -8,8 +9,8 @@ export async function generateMetadata({
   const { lang } = await params;
   return {
     alternates: {
-      canonical: `/${lang}/`,
-      languages: { en: "/en/", pl: "/pl/" },
+      canonical: siteUrl(`/${lang}/`),
+      languages: { en: siteUrl("/en/"), pl: siteUrl("/pl/") },
     },
   };
 }

@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import { PrivateAccessForm } from "@/components/access-form";
 import { type Lang } from "@/lib/products";
 import { t } from "@/lib/copy";
@@ -9,7 +10,7 @@ export async function generateMetadata({
   const { lang } = await params;
   return {
     title: t(lang).access,
-    alternates: { canonical: `/${lang}/private-access/` },
+    alternates: { canonical: siteUrl(`/${lang}/private-access/`) },
   };
 }
 export default async function Page({

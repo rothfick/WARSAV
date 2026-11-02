@@ -56,3 +56,16 @@ The source and private deployment are managed with `.openai/hosting.json`; keep 
 ## Verification
 
 Production static generation and strict TypeScript checks are run. Browser QA covers desktop and 390px mobile, product selection, size availability, bag addition/quantity/subtotal, checkout preview messaging, Escape dismissal and the mobile size sheet. The export check validates local links and image paths across generated HTML. Core Web Vitals require measurements on the final deployed site and are not claimed as measured here.
+
+## GitHub Pages
+
+The public GitHub Pages site is https://rothfick.github.io/WARSAV/ . `.github/workflows/pages.yml` builds and deploys `main` automatically using GitHub Actions. Repository Pages settings must use **GitHub Actions** as the source.
+
+The workflow sets `NEXT_PUBLIC_BASE_PATH=/WARSAV` and `NEXT_PUBLIC_SITE_URL=https://rothfick.github.io`. Next.js prefixes navigation and bundled assets; product images, metadata, structured data and the sitemap use the same deployment prefix. The default build keeps the existing root-hosted Sites preview configuration. To reproduce the Pages export locally:
+
+```sh
+NEXT_PUBLIC_BASE_PATH=/WARSAV NEXT_PUBLIC_SITE_URL=https://rothfick.github.io npm run build
+NEXT_PUBLIC_BASE_PATH=/WARSAV python3 scripts/check-export.py
+```
+
+Publish `out/` as the Pages artifact. Do not commit `out/` or `node_modules/` to `main`. The workflow uses only the repository's built-in `GITHUB_TOKEN`; no deployment secret is required.

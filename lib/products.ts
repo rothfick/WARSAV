@@ -1,3 +1,4 @@
+export const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export type Lang = "en" | "pl";
 export const languages: Lang[] = ["en", "pl"];
 export const sizes = ["XS", "S", "M", "L", "XL", "XXL"] as const;
@@ -116,12 +117,12 @@ export const products: Product[] = rows.map(
     sizes,
     stock: { XS: 0, S: 5, M: 8, L: 3, XL: 2, XXL: 0 },
     images: {
-      campaign: `/warsav/drop-001/campaign/${id}.webp`,
-      front: `/warsav/drop-001/products/${id}-front.webp`,
-      back: `/warsav/drop-001/products/${id}-back.webp`,
-      detail: `/warsav/drop-001/details/${id}-print.webp`,
-      label: `/warsav/drop-001/details/${id}-label.webp`,
-      board: `/warsav/drop-001/editorial/${id}-board.webp`,
+      campaign: `${basePath}/warsav/drop-001/campaign/${id}.webp`,
+      front: `${basePath}/warsav/drop-001/products/${id}-front.webp`,
+      back: `${basePath}/warsav/drop-001/products/${id}-back.webp`,
+      detail: `${basePath}/warsav/drop-001/details/${id}-print.webp`,
+      label: `${basePath}/warsav/drop-001/details/${id}-label.webp`,
+      board: `${basePath}/warsav/drop-001/editorial/${id}-board.webp`,
     },
   }),
 );
@@ -132,5 +133,8 @@ export const money = (n: number) =>
     maximumFractionDigits: 0,
   }).format(n);
 export const origin =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://warsav-private-circulation.robertoo256.chatgpt.site";
+  (
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://warsav-private-circulation.robertoo256.chatgpt.site"
+  ).replace(/\/$/, "") + basePath;
+export const siteUrl = (path: string) => `${origin}${path}`;

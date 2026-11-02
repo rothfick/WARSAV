@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { type Lang } from "@/lib/products";
@@ -64,7 +65,7 @@ export async function generateMetadata({
   const { lang, topic } = await params;
   return {
     title: pages[topic]?.[lang][0],
-    alternates: { canonical: `/${lang}/information/${topic}/` },
+    alternates: { canonical: siteUrl(`/${lang}/information/${topic}/`) },
   };
 }
 export default async function Page({

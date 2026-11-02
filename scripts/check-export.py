@@ -2,7 +2,8 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
-import json
+import json, os
+base_path=os.environ.get('NEXT_PUBLIC_BASE_PATH','')
 root=Path('out'); problems=[]; count=0
 class Page(HTMLParser):
  def __init__(self):
@@ -10,7 +11,7 @@ class Page(HTMLParser):
  def handle_starttag(self,tag,attrs):
   a=dict(attrs)
   if tag=='h1':self.h1+=1
-  if tag in ('a','link','img','script'):
+  if tag in ('a','link','img','script') and a.get('rel') != 'preconnect':
    ref=a.get('href') or a.get('src')
    if ref:self.refs.append(ref)
   if tag=='script' and a.get('type')=='application/ld+json':self.injson=True
@@ -22,7 +23,10 @@ for file in root.rglob('*.html'):
  page=Page();page.feed(file.read_text());count+=1
  for ref in page.refs:
   if not ref.startswith('/') or ref.startswith('//'):continue
-  path=unquote(urlsplit(ref).path).lstrip('/');dest=root/path
+  url_path=unquote(urlsplit(ref).path)
+  if base_path and not (url_path == base_path or url_path.startswith(base_path + '/')):
+   problems.append(f'{file}: path escapes deployment prefix: {ref}');continue
+  path=url_path[len(base_path):].lstrip('/');dest=root/path
   if not dest.exists() and not dest.with_suffix('.html').exists():problems.append(f'{file}: missing {ref}')
  if '/collection/the-' in str(file):
   graphs=[item for graph in page.jsons for item in graph.get('@graph',[])]

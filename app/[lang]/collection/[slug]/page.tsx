@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { products, type Lang, origin } from "@/lib/products";
@@ -18,13 +19,16 @@ export async function generateMetadata({
     title: p.name,
     description: `${p.quote} ${p.material}, ${p.gsm} GSM. ${p.color}. DROP 001.`,
     alternates: {
-      canonical: `/${lang}/collection/${slug}/`,
+      canonical: siteUrl(`/${lang}/collection/${slug}/`),
       languages: {
-        en: `/en/collection/${slug}/`,
-        pl: `/pl/collection/${slug}/`,
+        en: siteUrl(`/en/collection/${slug}/`),
+        pl: siteUrl(`/pl/collection/${slug}/`),
       },
     },
-    openGraph: { title: `${p.name} — WARSAV`, images: [p.images.campaign] },
+    openGraph: {
+      title: `${p.name} — WARSAV`,
+      images: [new URL(p.images.campaign, origin).href],
+    },
   };
 }
 export default async function Page({
@@ -50,7 +54,10 @@ export default async function Page({
                 name: p.name,
                 sku: p.id,
                 description: p.story[lang],
-                image: [origin + p.images.campaign, origin + p.images.front],
+                image: [
+                  new URL(p.images.campaign, origin).href,
+                  new URL(p.images.front, origin).href,
+                ],
                 brand: { "@type": "Brand", name: "WARSAV" },
                 color: p.color,
                 material: p.material,

@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/products";
 import { ProductIndex } from "@/components/editorial";
 import { type Lang } from "@/lib/products";
 import { t } from "@/lib/copy";
@@ -10,8 +11,11 @@ export async function generateMetadata({
   return {
     title: t(lang).collection,
     alternates: {
-      canonical: `/${lang}/collection/`,
-      languages: { en: "/en/collection/", pl: "/pl/collection/" },
+      canonical: siteUrl(`/${lang}/collection/`),
+      languages: {
+        en: siteUrl("/en/collection/"),
+        pl: siteUrl("/pl/collection/"),
+      },
     },
   };
 }

@@ -6,7 +6,7 @@ import "@fontsource/bodoni-moda/latin-ext-400-italic.css";
 import "@fontsource/inter/latin-400.css";
 import "@fontsource/inter/latin-ext-400.css";
 import "./globals.css";
-import { origin } from "@/lib/products";
+import { origin, basePath } from "@/lib/products";
 export const metadata: Metadata = {
   metadataBase: new URL(origin),
   title: { default: "WARSAV — Private Circulation", template: "%s — WARSAV" },
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: "Warsaw has another entrance. DROP 001.",
     images: [
       {
-        url: "/warsav/drop-001/editorial/001-board.webp",
+        url: `${origin}/warsav/drop-001/editorial/001-board.webp`,
         width: 1600,
         height: 1600,
       },
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "WARSAV — Private Circulation",
-    images: ["/warsav/drop-001/editorial/001-board.webp"],
+    images: [`${origin}/warsav/drop-001/editorial/001-board.webp`],
   },
-  icons: { icon: "/icon.svg" },
+  icons: { icon: `${basePath}/icon.svg` },
 };
 export default function RootLayout({
   children,
