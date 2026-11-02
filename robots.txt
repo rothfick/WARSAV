@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://rothfick.github.io/WARSAV/sitemap.xml

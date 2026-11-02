@@ -1,0 +1,33 @@
+1:"/WARSAV/_next/static/chunks/0umf92h1sb77c.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[39756,["$1"],"default"]
+6:"/WARSAV/_next/static/chunks/343661-m_-kpn.js"
+7:I[8821,["$1","$6"],"default"]
+8:I[37457,["$1"],"default"]
+9:"/WARSAV/_next/static/chunks/0i8d0r0z2injj.js"
+a:I[22016,["$1","$9"],""]
+12:I[97367,["$1"],"OutletBoundary"]
+13:"$Sreact.suspense"
+15:"ViewportBoundary"
+16:I[97367,["$1"],"$15"]
+18:"MetadataBoundary"
+19:I[97367,["$1"],"$18"]
+1b:I[68027,["$1"],"default",1]
+:HL["/WARSAV/_next/static/chunks/1qyl84clk-70i.css","style"]
+:HC["/",""]
+e:X
+10:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$4","c",{"children":["$L11",null,["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}],"p":false,"v":null}}]]
+f:[["children",{"s":{"n":"topic","t":"d","k":"contact","s":[]},"h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$e"},"c":"$Q10"}]]
+d:[["children",{"s":"information","h":512,"d":{"r":["$","$4","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$e"},"c":"$Qf"}]]
+b:[["children",{"s":{"n":"lang","t":"d","k":"en","s":[]},"h":512,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/0i8d0r0z2injj.js","async":true,"nonce":"$undefined"}]],"$Lc"]}],"p":false,"v":null},"c":"$Qd"}]]
+0:{"P":null,"c":["","en","information","contact",""],"q":"","i":false,"t":{"t":{"s":"","h":532,"d":{"r":["$","$L3",null,{"loading":[["$","main","l",{"className":"loading-page","aria-busy":"true","children":[["$","span",null,{"className":"wordmark","children":"WARSAV"}],["$","p",null,{"className":"meta","children":"PRIVATE CIRCULATION"}]]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/WARSAV/_next/static/chunks/1qyl84clk-70i.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","data-scroll-behavior":"smooth","children":["$","body",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$7","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/343661-m_-kpn.js","async":true,"nonce":"$undefined"}]],"template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"error-page","children":[["$","p",null,{"className":"wordmark","children":"WARSAV"}],["$","p",null,{"className":"meta","children":"404 / UNLISTED ADDRESS"}],["$","h1",null,{"children":"Another entrance."}],["$","p",null,{"children":"This address is outside the circulation."}],["$","$La",null,{"className":"text-link","href":"/en/","children":"Return to the House ↗"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]}],"p":false,"v":null},"c":"$Qb"},"h":{"r":["$","$4","h",{"children":[null,["$","$L16",null,{"children":"$L17"}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":"$L1a"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$1b",[["$","link","0",{"rel":"stylesheet","href":"/WARSAV/_next/static/chunks/1qyl84clk-70i.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"n21oxbI0d50hJYxYTQxhj"}
+1c:I[138,["$1","$9"],"Shell"]
+e:C
+c:["$","$L1c",null,{"lang":"en","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]
+11:["$","main",null,{"id":"main","className":"inner-page information-page section-pad","children":[["$","p",null,{"className":"meta","children":"WARSAV / PRIVATE OFFICE"}],["$","h1",null,{"children":"Private office"}],["$","p",null,{"children":"The WARSAV contact office opens with the collection. No official contact address has been announced. You can prepare a private-list request in this preview."}],["$","$La",null,{"className":"text-link","href":"/en/private-access/","children":["PRIVATE ACCESS"," ↗"]}]]}]
+17:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1d:I[27201,["$1"],"IconMark"]
+14:null
+1a:[["$","title","0",{"children":"Private office — WARSAV"}],["$","meta","1",{"name":"description","content":"DROP 001. Six pieces. Limited circulation. A fashion house born in Warsaw."}],["$","link","2",{"rel":"canonical","href":"https://rothfick.github.io/WARSAV/en/information/contact/"}],["$","meta","3",{"property":"og:title","content":"WARSAV — Private Circulation"}],["$","meta","4",{"property":"og:description","content":"Warsaw has another entrance. DROP 001."}],["$","meta","5",{"property":"og:site_name","content":"WARSAV"}],["$","meta","6",{"property":"og:image","content":"https://rothfick.github.io/WARSAV/warsav/drop-001/editorial/001-board.webp"}],["$","meta","7",{"property":"og:image:width","content":"1600"}],["$","meta","8",{"property":"og:image:height","content":"1600"}],["$","meta","9",{"property":"og:type","content":"website"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"WARSAV — Private Circulation"}],["$","meta","12",{"name":"twitter:description","content":"Warsaw has another entrance. DROP 001."}],["$","meta","13",{"name":"twitter:image","content":"https://rothfick.github.io/WARSAV/warsav/drop-001/editorial/001-board.webp"}],["$","link","14",{"rel":"icon","href":"/WARSAV/icon.svg"}],["$","$L1d","15",{}]]

@@ -1,0 +1,46 @@
+1:"/WARSAV/_next/static/chunks/0umf92h1sb77c.js"
+2:"LoadingBoundaryProvider"
+3:I[39756,["$1"],"$2"]
+4:"$Sreact.fragment"
+5:I[39756,["$1"],"default"]
+6:"/WARSAV/_next/static/chunks/343661-m_-kpn.js"
+7:I[8821,["$1","$6"],"default"]
+8:I[37457,["$1"],"default"]
+9:"/WARSAV/_next/static/chunks/0i8d0r0z2injj.js"
+a:"/WARSAV/_next/static/chunks/1wbsthn9-m1k4.js"
+b:I[22016,["$1","$9","$a"],""]
+f:I[138,["$1","$9"],"Shell"]
+17:I[36056,["$1","$9","$a"],"ProductGallery"]
+18:I[36056,["$1","$9","$a"],"ProductInfo"]
+1f:"ViewportBoundary"
+20:I[97367,["$1"],"$1f"]
+21:"MetadataBoundary"
+22:I[97367,["$1"],"$21"]
+23:"$Sreact.suspense"
+24:I[27201,["$1"],"IconMark"]
+:HL["/WARSAV/_next/static/chunks/1qyl84clk-70i.css","style"]
+d:X
+13:X
+13:C
+16:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$4","c",{"children":[["$","main",null,{"id":"main","className":"inner-page","children":[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Product\",\"name\":\"THE PURCHASE\",\"sku\":\"003\",\"description\":\"Kwestia gustu. Paragon jest gdzie indziej.\",\"image\":[\"https://rothfick.github.io/WARSAV/warsav/drop-001/campaign/003.webp\",\"https://rothfick.github.io/WARSAV/warsav/drop-001/products/003-front.webp\"],\"brand\":{\"@type\":\"Brand\",\"name\":\"WARSAV\"},\"color\":\"Champagne\",\"material\":\"Heavyweight cotton\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://rothfick.github.io/WARSAV/pl/collection/the-purchase/\",\"priceCurrency\":\"PLN\",\"price\":490,\"availability\":\"https://schema.org/OutOfStock\",\"description\":\"Collection preview; orders are not open.\"}},{\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"WARSAV\",\"item\":\"https://rothfick.github.io/WARSAV/pl/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Kolekcja\",\"item\":\"https://rothfick.github.io/WARSAV/pl/collection/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"THE PURCHASE\",\"item\":\"https://rothfick.github.io/WARSAV/pl/collection/the-purchase/\"}]}]}"}}],["$","div",null,{"className":"pdp-breadcrumb meta","children":[["$","$Lb",null,{"href":"/pl/collection/","children":["← ","Powrót do kolekcji"]}],["$","span",null,{"children":["003"," / 006"]}]]}],["$","div",null,{"className":"pdp","children":[["$","$L17",null,{"product":{"id":"003","slug":"the-purchase","name":"THE PURCHASE","quote":"Nie wiem ile kosztuje. Podobało mi się.","color":"Champagne","colorHex":"#DDD0B8","division":"PRIVATE ACCOUNT","location":"Bracka","price":490,"material":"Heavyweight cotton","gsm":280,"story":{"en":"A matter of taste. The receipt is elsewhere.","pl":"Kwestia gustu. Paragon jest gdzie indziej."},"sizes":["XS","S","M","L","XL","XXL"],"stock":{"XS":0,"S":5,"M":8,"L":3,"XL":2,"XXL":0},"images":{"campaign":"/WARSAV/warsav/drop-001/campaign/003.webp","front":"/WARSAV/warsav/drop-001/products/003-front.webp","back":"/WARSAV/warsav/drop-001/products/003-back.webp","detail":"/WARSAV/warsav/drop-001/details/003-print.webp","label":"/WARSAV/warsav/drop-001/details/003-label.webp","board":"/WARSAV/warsav/drop-001/editorial/003-board.webp"}},"lang":"pl"}],["$","$L18",null,{"product":"$16:0:1:d:r:props:children:0:props:children:2:props:children:0:props:product","lang":"pl"}]]}],["$","$Lb",null,{"className":"next-product","href":"/pl/collection/the-expense/","children":["$L19","$L1a","$L1b"]}]]}],["$L1c"],"$L1d"]}],"p":"$@1e","v":null,"s":"$d"}}]]
+14:[["children",{"s":{"n":"slug","t":"d","k":"the-purchase","s":[]},"h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@15","v":"$13","s":"$d"},"c":"$Q16"}]]
+11:[["children",{"s":"collection","h":96,"d":{"r":["$","$4","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@12","v":"$13","s":"$d"},"c":"$Q14"}]]
+e:[["children",{"s":{"n":"lang","t":"d","k":"pl","s":[]},"h":96,"d":{"r":["$","$4","c",{"children":[[["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/0i8d0r0z2injj.js","async":true}]],["$","$Lf",null,{"lang":"pl","children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]}]]}],"p":"$@10","v":null,"s":"$d"},"c":"$Q11"}]]
+0:{"t":{"t":{"s":"","h":84,"d":{"r":["$","$L3",null,{"loading":[["$","main","l",{"className":"loading-page","aria-busy":"true","children":[["$","span",null,{"className":"wordmark","children":"WARSAV"}],["$","p",null,{"className":"meta","children":"PRIVATE CIRCULATION"}]]}],[],null],"children":["$","$4","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/WARSAV/_next/static/chunks/1qyl84clk-70i.css","precedence":"next"}],["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/0umf92h1sb77c.js","async":true}]],["$","html",null,{"lang":"en","data-scroll-behavior":"smooth","children":["$","body",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$7","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/343661-m_-kpn.js","async":true}]],"template":["$","$L8",null,{}],"notFound":[["$","main",null,{"className":"error-page","children":[["$","p",null,{"className":"wordmark","children":"WARSAV"}],["$","p",null,{"className":"meta","children":"404 / UNLISTED ADDRESS"}],["$","h1",null,{"children":"Another entrance."}],["$","p",null,{"children":"This address is outside the circulation."}],["$","$Lb",null,{"className":"text-link","href":"/en/","children":"Return to the House ↗"}]]}],[]]}]}]}]]}]}],"p":"$@c","v":null,"s":"$d"},"c":"$Qe"},"h":{"r":["$","$4","h",{"children":[null,["$","$L20",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L22",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$23",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"THE PURCHASE — WARSAV"}],["$","meta","1",{"name":"description","content":"Nie wiem ile kosztuje. Podobało mi się. Heavyweight cotton, 280 GSM. Champagne. DROP 001."}],["$","link","2",{"rel":"canonical","href":"https://rothfick.github.io/WARSAV/pl/collection/the-purchase/"}],["$","link","3",{"rel":"alternate","hrefLang":"en","href":"https://rothfick.github.io/WARSAV/en/collection/the-purchase/"}],["$","link","4",{"rel":"alternate","hrefLang":"pl","href":"https://rothfick.github.io/WARSAV/pl/collection/the-purchase/"}],["$","meta","5",{"property":"og:title","content":"THE PURCHASE — WARSAV"}],["$","meta","6",{"property":"og:description","content":"Nie wiem ile kosztuje. Podobało mi się. Heavyweight cotton, 280 GSM. Champagne. DROP 001."}],["$","meta","7",{"property":"og:image","content":"https://rothfick.github.io/WARSAV/warsav/drop-001/campaign/003.webp"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"WARSAV — Private Circulation"}],["$","meta","10",{"name":"twitter:description","content":"Nie wiem ile kosztuje. Podobało mi się. Heavyweight cotton, 280 GSM. Champagne. DROP 001."}],["$","meta","11",{"name":"twitter:image","content":"https://rothfick.github.io/WARSAV/warsav/drop-001/editorial/001-board.webp"}],["$","link","12",{"rel":"icon","href":"/WARSAV/icon.svg"}],["$","$L24","13",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@25","v":null,"s":"$d"}},"a":"$@26","u":"$@27","b":"n21oxbI0d50hJYxYTQxhj"}
+28:I[97367,["$1"],"OutletBoundary"]
+19:["$","span",null,{"className":"meta","children":["Dalej w obiegu"," / ","004"]}]
+1a:["$","span",null,{"children":["The Expense"," ","↗"]}]
+1b:["$","img",null,{"src":"/WARSAV/warsav/drop-001/products/004-front.webp","alt":"THE EXPENSE","loading":"lazy"}]
+1c:["$","script","script-0",{"src":"/WARSAV/_next/static/chunks/1wbsthn9-m1k4.js","async":true}]
+1d:["$","$L28",null,{"children":["$","$23",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+d:300
+29:null
+27:true
+d:C
+26:0
+15:"$undefined"
+12:"$undefined"
+10:"$undefined"
+c:"$undefined"
+25:"$undefined"
+1e:"$undefined"
