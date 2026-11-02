@@ -59,7 +59,9 @@ Production static generation and strict TypeScript checks are run. Browser QA co
 
 ## GitHub Pages
 
-The public GitHub Pages site is https://rothfick.github.io/WARSAV/ . `.github/workflows/pages.yml` builds and deploys `main` automatically using GitHub Actions. Repository Pages settings must use **GitHub Actions** as the source.
+The public GitHub Pages site is https://rothfick.github.io/WARSAV/ . It is currently published from the verified static export on the `gh-pages` branch (repository Pages source: **Deploy from a branch**, `gh-pages`, `/`). This fallback is active because GitHub blocked the custom Actions job due to an account billing issue.
+
+`.github/workflows/pages.yml` is ready to build and deploy `main` automatically. After the account billing issue is resolved, switch the Pages source to **GitHub Actions** and run the workflow. Until then, rebuild with the environment below and publish the contents of `out/`, including `.nojekyll`, to `gh-pages`.
 
 The workflow sets `NEXT_PUBLIC_BASE_PATH=/WARSAV` and `NEXT_PUBLIC_SITE_URL=https://rothfick.github.io`. Next.js prefixes navigation and bundled assets; product images, metadata, structured data and the sitemap use the same deployment prefix. The default build keeps the existing root-hosted Sites preview configuration. To reproduce the Pages export locally:
 
